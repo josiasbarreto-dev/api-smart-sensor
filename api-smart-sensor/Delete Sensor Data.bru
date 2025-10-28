@@ -1,0 +1,15 @@
+meta {
+  name: Delete Sensor Data
+  type: http
+  seq: 3
+}
+
+delete {
+  url: http://localhost:8080/api/v1/sensors/68fbb270b608fe2d0fb9083e
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
